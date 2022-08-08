@@ -254,7 +254,7 @@ If the function only has one line in the curly brackets, you omit the curly brac
 ```js
 textBox.addEventListener('keydown', (event) => console.log(`You pressed "${event.key}".`));
 ```
-
+> **Note:** When omitting curly brackets also remove the semicolon of that line. Otherwise it may cause  error something like : Uncaught SyntaxError: missing ) after argument list.
 If the function only takes one parameter, you can also omit the brackets around the parameter:
 
 ```js
